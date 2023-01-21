@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700&display=swap');
+:root {
+    --red: #ff4141;
+    --red2: #aa0c0c;
+    --red3: #720d0d;
+}
+body {
+    position: relative;
+    font-family: Poppins, sans-serif;
+    height: 1200px;
+    padding: 0;
+    min-width: 1700px;
+}
+.topDesignImg {
+    position: absolute;
+    padding-top: 90px;
+    right: 0px;
+    top: 0px;
+    height: 500px;
+    width: 50%;
+    object-fit: cover;
+}
+.topDesignArrow {
+    transition: all 1s;
+}
+.topDesignArrowHover {
+    color: white;
+}
+.topDesignImg2 {
+    position: absolute;
+    background-color: var(--red);
+    left: 0px;
+    top:0px;
+    height: 500px;
+    width: 50%;
+    padding-top: 90px;
+}
+.topDesignText {
+    position: absolute;
+    color: var(--red3);
+    font-size: 95px;
+    left: 15px;
+    top: 150px;
+    width: 100%;
+    text-decoration: none;
+    z-index: 1;
+    transition: all 1s;
+}
+.topDesignText:hover {
+    transform: translateX(90px);
+}
+.topDesignText2 {
+    color: white;
+}
+.headerMain {
+    position: fixed;
+    display: flex;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 100px;
+    background-color: white;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    flex-direction: row;
+    z-index: 10;
+}
+.middleSect {
+    max-width: 500px;
+    min-width: none;
+    width: 1000px;
+}
+.leftSect {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    column-gap: 35px;
+    padding-left: 60px;
+    min-width: 450px;
+}
+.rightSect {
+    width: 600px;
+    min-width: 385px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 25px;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    justify-self: center;
+}
+.menuText {
+    padding-left: 40px;
+}
+ul {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    padding: 0px;
+    justify-self: center;
+    padding-inline-start: 0px;
+    font-family: Poppins, sans-serif;
+    cursor: pointer;
+}
+ul:hover {
+    color: rgb(4, 135, 4);
+}
+.giftCardsText {
+    min-width: 100px;
+}
+.findStoreText {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    justify-self: center;
+    color: black;
+    cursor: pointer;
+    margin-right: 45px;
+}
+.findStoreText:hover {
+    color: rgb(4, 135, 4) ;
+}
+button {
+    font-family: Poppins, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    justify-self: center;
+    border-radius: 30px;
+    height: 35px;
+    cursor: pointer;
+}
+.signInBtn {
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 80px;
+    transition: all 0.25s;
+}
+.joinNowBtn {
+    border: solid;
+    border-color: black;
+    background-color: white;
+    color: black;
+    border-width: 1px;
+    width: 100px;
+    transition: all 0.25s;
+}
+.signInBtn:hover {
+    color: white;
+    background-color: black;
+}
+.joinNowBtn:hover {
+    color: white;
+    background-color: black;
+}
+
+
