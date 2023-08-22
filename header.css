@@ -7,7 +7,7 @@
 body {
     position: relative;
     font-family: Poppins, sans-serif;
-    height: 1200px;
+    height: 2100px;
     padding: 0;
     min-width: 1700px;
 }
@@ -22,9 +22,10 @@ body {
 }
 .topDesignArrow {
     transition: all 1s;
+    color: var(--red);
 }
 .topDesignArrowHover {
-    color: white;
+    color: white;   
 }
 .topDesignImg2 {
     position: absolute;
@@ -37,7 +38,7 @@ body {
 }
 .topDesignText {
     position: absolute;
-    color: var(--red3);
+    color: white;
     font-size: 95px;
     left: 15px;
     top: 150px;
@@ -46,8 +47,15 @@ body {
     z-index: 1;
     transition: all 1s;
 }
+.thisIsText {
+    transition: all 1s;
+}
+.thisIsTextOp {
+    opacity: 0%;
+}
 .topDesignText:hover {
     transform: translateX(90px);
+
 }
 .topDesignText2 {
     color: white;
